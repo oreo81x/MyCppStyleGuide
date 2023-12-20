@@ -1,0 +1,51 @@
+c++ coding style guide
+
+__________project_folder_and_file_structure__________
+
+workspace-name/
+    output/
+    readme/
+    source/
+        private/
+            source-files
+        public/
+            header-files
+
+    vendor/
+        source/
+            private/
+                source-files
+            public/
+                header-files
+        lib/
+            staticlibs
+
+
+__________folders_and_files_naming_convention__________
+
+folders =   most cases( UpperCamelCase )
+files   =   most cases( UpperCamelCase )
+
+__________c++_code_symbols_naming_convention__________
+
+namespace   = UpperCamelCase
+
+function    = lowerCamelCase
+variable    = lowerCamelCase
+argument    = lowerCamelCase, prefix = p_
+
+class = UpperCamelCase
+    public
+        member = lowerCamelCase
+        method = lowerCamelCase
+
+    private
+        member = lowerCamelCase, prefix = m_
+        method = lowerCamelCase
+
+    protected
+        member = lowerCamelCase, prefix = m_
+        method = lowerCamelCase
+
+enumurations    = UpperCamelCase
+enumurators     = UpperCamelCase

@@ -1,0 +1,52 @@
+c++ coding style guide
+
+__________project_folder_and_file_structure__________
+
+workspace-name/
+    output/
+    readme/
+    source/
+        private/
+            source-files
+        public/
+            header-files
+
+    vendor/
+        source/
+            private/
+                source-files
+            public/
+                header-files
+        lib/
+            staticlibs
+
+
+__________folders_and_files_naming_convention__________
+
+folders =
+files   =
+
+__________c++_code_symbols_naming_convention__________
+
+        namespace   =
+
+global  function    =
+global  variable    =
+static  variable    =
+local   variable    =
+
+class =
+    public
+        member =
+        method =
+
+    private
+        member =
+        method =
+
+    protected
+        member =
+        method =
+
+enumurations    = 
+enumurators     =
